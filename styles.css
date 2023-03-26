@@ -1,0 +1,62 @@
+
+    div.Rock,
+    div.Paper,
+    div.Scissor {
+        padding-top: 100px;
+    }
+
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    * {
+        font-family: sans-serif;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        border:black solid 3px;
+        border-radius:5px;
+        height:200px;
+        width:300px;
+        font-size:24px;
+    }
+
+    .button1:hover {
+        color: blue;
+        border-color: blue;
+    }
+
+    .button2:hover {
+        color: blue;
+        border-color: blue;
+    }
+    .button3:hover {
+        color: blue;
+        border-color: blue;
+    }
+
+    .button1 {
+        background-color: aqua;
+    }
+
+    .button2 {
+        background-color: lightgreen;
+    }
+
+    .button3 {
+        background-color: lime;
+    }
+
+
+
+
