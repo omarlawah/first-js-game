@@ -1,13 +1,9 @@
-    /* 
-    let newParagraph= document.getElementById("intro");
-    console.log(newParagraph)
-    let pContent= newParagraph.textContent;
-    console.log(pContent);
-    */
+let rock = document.querySelector('.Rock');
+let paper = document.querySelector('.Paper');
+let scissors = document.querySelector('.Scissor');
 
-    /*
-    let div= document.querySelector('.container');
-    let divContent = div.innerHTML;
-    console.log(divContent);
-    let a= document.querySelector('#playerResult').textContent ="player scores:";
-    */
+let choices=[rock, paper, scissors];
+
+function computerPlay(){
+    Math.trunc(Math.random()*3);
+}
