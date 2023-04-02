@@ -9,16 +9,25 @@
         <h1>
             choose your weapon of massive destruction carefully!
         </h1>
-        <h2>you will be playing againt the computer, the first to score 5 points win!</h2>
+        <h2>you will be playing against the computer, the first to score 5 points win!</h2>
         <div class="container">
-           <div class="Rock"><input  class="button1" type="button" value="Rock"></input></div>
-           <div class="Paper"><input  class="button2" type="button" value="Paper"></input></div>
-           <div class="Scissor"><input  class="button3" type="button" value="Scissors"></input></div>
+           <input  class="Rock button1" type="button" value="Rock"></input>
+            <input  class="Paper button2" type="button" value="Paper"></input>
+           <input  class="Paper button3" type="button" value="Scissors"></input>
         </div>
-        <div class="results">
+    <div id="flex">
+        <div class="plays">
             <div id="playerResult"></div>
             <div id="computerResult"></div>
+            <div class="results"></div>
         </div>
-        <script src="scripts.js"></script>
+        <div class="points">
+            <div class="playerPoints"></div>
+            <div class="computerPoints"></div>
+            <div class="points"></div>
+        </div>
+    </div>
     </body>
 </html>
+
+<script src="scripts.js"></script>
