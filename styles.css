@@ -1,13 +1,16 @@
 
-    button.Rock,
-    button.Paper,
-    button.Scissor {
-        padding-top: 100px;
-    }
+.refresh{
+    background-color: black;
+    background-color: black;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    border:3px solid;
+}
 
     div#flex {
         display:flex;
-        justify-content: space-around;
+        justify-content: space-around
     }
 
     
